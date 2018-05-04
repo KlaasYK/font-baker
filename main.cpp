@@ -61,8 +61,8 @@ int main(int argc, char **argv)
         {
             x_max -= x;
             x = 0;
-            y += height;
-            height = 0;
+            y += m_height;
+            m_height = 0;
         }
 
         if (height > m_height)
