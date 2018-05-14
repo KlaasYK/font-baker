@@ -83,7 +83,8 @@ int main(int argc, char **argv)
         // x, y: tex pos
         // width, height: tex/glyph width, height
         // advance: pixels to the next value
-        long advance = slot->advance.x / 26.6;
+        long advance = slot->advance.x / 64;
+
         // bearing: offset from origin on baseline
         int bearingX = slot->bitmap_left;
         int bearingY = slot->bitmap_top;
